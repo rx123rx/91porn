@@ -1,7 +1,7 @@
 package com.u91porn.ui.favorite;
 
-import android.arch.lifecycle.Lifecycle;
-import android.support.annotation.NonNull;
+import androidx.lifecycle.Lifecycle;
+import androidx.annotation.NonNull;
 import android.text.TextUtils;
 
 import com.bugsnag.android.Bugsnag;

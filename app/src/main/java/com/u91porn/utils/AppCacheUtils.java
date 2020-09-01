@@ -1,8 +1,8 @@
 package com.u91porn.utils;
 
 import android.content.Context;
-import android.os.Environment;
-import android.support.annotation.NonNull;
+
+import androidx.annotation.NonNull;
 import android.text.format.Formatter;
 
 import java.io.File;

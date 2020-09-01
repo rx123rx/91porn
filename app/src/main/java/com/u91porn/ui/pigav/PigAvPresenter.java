@@ -1,7 +1,7 @@
 package com.u91porn.ui.pigav;
 
-import android.arch.lifecycle.Lifecycle;
-import android.support.annotation.NonNull;
+import androidx.lifecycle.Lifecycle;
+import androidx.annotation.NonNull;
 
 import com.google.gson.Gson;
 import com.orhanobut.logger.Logger;

@@ -1,9 +1,9 @@
 package com.u91porn.ui.history;
 
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.Toolbar;
+import androidx.annotation.NonNull;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.appcompat.widget.Toolbar;
 import android.view.View;
 
 import com.aitsuki.swipe.SwipeMenuRecyclerView;

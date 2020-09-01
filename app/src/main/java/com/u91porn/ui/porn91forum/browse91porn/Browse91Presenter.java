@@ -1,6 +1,6 @@
 package com.u91porn.ui.porn91forum.browse91porn;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 import com.hannesdorfmann.mosby3.mvp.MvpBasePresenter;
 import com.u91porn.data.network.Forum91PronServiceApi;

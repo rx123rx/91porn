@@ -1,7 +1,7 @@
 package com.u91porn.ui.porn91forum;
 
 
-import android.support.v4.app.Fragment;
+import androidx.fragment.app.Fragment;
 
 import com.u91porn.data.model.Category;
 import com.u91porn.ui.basemain.BaseMainFragment;

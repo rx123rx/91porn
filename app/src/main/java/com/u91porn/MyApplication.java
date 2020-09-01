@@ -1,8 +1,8 @@
 package com.u91porn;
 
 import android.content.Context;
-import android.support.multidex.MultiDexApplication;
-import android.support.v7.app.AppCompatDelegate;
+import androidx.multidex.MultiDexApplication;
+import androidx.appcompat.app.AppCompatDelegate;
 
 import com.bugsnag.android.Bugsnag;
 import com.github.yuweiguocn.library.greendao.MigrationHelper;

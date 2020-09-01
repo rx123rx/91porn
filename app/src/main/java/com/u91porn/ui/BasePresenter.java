@@ -1,6 +1,6 @@
 package com.u91porn.ui;
 
-import android.arch.lifecycle.Lifecycle;
+import androidx.lifecycle.Lifecycle;
 
 import com.trello.rxlifecycle2.LifecycleProvider;
 import com.u91porn.data.cache.CacheProviders;

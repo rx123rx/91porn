@@ -1,9 +1,7 @@
 package com.u91porn.adapter;
 
-import android.support.v7.widget.AppCompatImageView;
-import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.StaggeredGridLayoutManager;
-import android.widget.ImageView;
+import androidx.appcompat.widget.AppCompatImageView;
+
 import android.widget.LinearLayout;
 
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions;

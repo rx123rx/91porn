@@ -26,12 +26,6 @@ import android.media.AudioManager;
 import android.net.Uri;
 import android.os.Build;
 import android.provider.Settings;
-import android.support.annotation.DrawableRes;
-import android.support.annotation.FloatRange;
-import android.support.annotation.IntRange;
-import android.support.annotation.LayoutRes;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.GestureDetector;
@@ -44,6 +38,14 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
+
+import androidx.annotation.DrawableRes;
+import androidx.annotation.FloatRange;
+import androidx.annotation.IntRange;
+import androidx.annotation.LayoutRes;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+
 import com.devbrackets.android.exomedia.ExoMedia;
 import com.devbrackets.android.exomedia.core.ListenerMux;
 import com.devbrackets.android.exomedia.core.api.VideoViewApi;
@@ -951,10 +953,10 @@ public class ExoVideoView extends RelativeLayout {
         public void onVideoSizeChanged(int width, int height, int unAppliedRotationDegrees, float pixelWidthHeightRatio) {
             //NOTE: Android 5.0+ will always have an unAppliedRotationDegrees of 0 (ExoPlayer already handles it)
             videoViewImpl.setVideoRotation(unAppliedRotationDegrees, false);
-            videoViewImpl.onVideoSizeChanged(width, height);
+            videoViewImpl.onVideoSizeChanged(width, height, 1);
 
             if (videoSizeChangedListener != null) {
-                videoSizeChangedListener.onVideoSizeChanged(width, height);
+                videoSizeChangedListener.onVideoSizeChanged(width, height, 1);
             }
         }
 

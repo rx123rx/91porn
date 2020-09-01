@@ -1,8 +1,7 @@
 package com.u91porn.adapter;
 
-import android.support.annotation.Nullable;
-import android.support.v4.content.ContextCompat;
-import android.text.Html;
+import androidx.annotation.Nullable;
+import androidx.core.content.ContextCompat;
 
 import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.chad.library.adapter.base.BaseViewHolder;

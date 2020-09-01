@@ -1,6 +1,6 @@
 package com.u91porn.ui.main;
 
-import android.support.annotation.NonNull;
+import androidx.annotation.NonNull;
 
 import com.hannesdorfmann.mosby3.mvp.MvpBasePresenter;
 import com.u91porn.data.model.Notice;

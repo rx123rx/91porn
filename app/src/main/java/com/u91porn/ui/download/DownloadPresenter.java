@@ -1,7 +1,7 @@
 package com.u91porn.ui.download;
 
-import android.arch.lifecycle.Lifecycle;
-import android.support.annotation.NonNull;
+import androidx.lifecycle.Lifecycle;
+import androidx.annotation.NonNull;
 
 import com.danikula.videocache.HttpProxyCacheServer;
 import com.hannesdorfmann.mosby3.mvp.MvpBasePresenter;
